@@ -49,25 +49,33 @@ align-items: center;
     .ptop{
         padding: 0 10% 0 20%;
     }
-    
+    .heading{
+        margin-top: 2rem;
+    }
 }
 @media screen  and (max-width:545px){
     .ptop{
         padding: 0 10% 0 15%;
     }
-    
+    .heading{
+        margin-top: 3rem;
+    }
 }
 @media screen  and (max-width:520px){
     .ptop{
         padding: 0 10% 0 10%;
     }
-    
+    .heading{
+        margin-top: 3rem;
+    }
 }
 @media screen  and (max-width:430px){
     .ptop{
         padding: 0 10% 0 2%;
     }
-    
+    .heading{
+        margin-top: 4rem;
+    }
 }
 .box{
     background-color: white;
