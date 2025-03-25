@@ -19,6 +19,7 @@ align-items: center;
 .heading{
     width: 80%;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 .panel{
     width: 80%;
@@ -59,6 +60,12 @@ align-items: center;
 @media screen  and (max-width:520px){
     .ptop{
         padding: 0 10% 0 10%;
+    }
+    
+}
+@media screen  and (max-width:4300px){
+    .ptop{
+        padding: 0 10% 0 5%;
     }
     
 }
