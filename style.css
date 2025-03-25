@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100%;
+width: 100%;
+}
+.main{
+width: 100vw;
+height: 100vh;
+background-color: rgb(202, 238,202);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.heading{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.panel{
+    width: 80%;
+    height: 85%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.ptop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(72, 104, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+.eleme{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+@media screen  and (max-width:780px){
+    .ptop{
+        padding: 0 10% 0 20%;
+    }
+    
+}
+@media screen  and (max-width:545px){
+    .ptop{
+        padding: 0 10% 0 15%;
+    }
+    
+}
+@media screen  and (max-width:520px){
+    .ptop{
+        padding: 0 10% 0 10%;
+    }
+    
+}
+.box{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+}
+.pbtm{
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(72,104,72);
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.bubble:hover{
+    background-color: rgb(42, 54, 42);
+    cursor: pointer;
+}
+.restart{
+ display: none;
+ font-size: 1.4rem;
+ padding: 0.5rem;
+ border-radius: 10%;
+ font-weight: 600;
+ background-color: rgb(37, 173, 37);
+ color: azure;
+ 
+}
