@@ -49,16 +49,14 @@ align-items: center;
     .ptop{
         padding: 0 10% 0 20%;
     }
-    .heading{
-        margin-top: 6rem;
-    }
+    
 }
 @media screen  and (max-width:545px){
     .ptop{
         padding: 0 10% 0 15%;
     }
     .heading{
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
 }
 @media screen  and (max-width:520px){
@@ -66,7 +64,7 @@ align-items: center;
         padding: 0 10% 0 10%;
     }
     .heading{
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
 }
 @media screen  and (max-width:430px){
@@ -74,7 +72,7 @@ align-items: center;
         padding: 0 10% 0 2%;
     }
     .heading{
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
 }
 .box{
