@@ -63,9 +63,9 @@ align-items: center;
     }
     
 }
-@media screen  and (max-width:4300px){
+@media screen  and (max-width:430px){
     .ptop{
-        padding: 0 10% 0 5%;
+        padding: 0 10% 0 2%;
     }
     
 }
